@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' data: https:; connect-src https://script.google.com https://script.googleusercontent.com; base-uri 'none'; form-action 'self'">
+<title>Your dashboard — Not So Perfect: Beyond the Film</title>
+<link rel="stylesheet" href="css/global.css">
+<link rel="stylesheet" href="css/community.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="site-header" id="site-header"></header>
+<main id="main"><div class="wrap">
+<div id="dash-loading" class="state"><div class="skeleton"></div><p class="muted">Loading your hub…</p></div>
+<div id="dash" class="hidden">
+<div class="greeting"><h1 id="hello"></h1></div>
+<div class="grid">
+<div class="panel"><h3>Available points</h3><div class="stat" id="points">0</div><p class="muted">Lifetime earned: <span id="lifetime">0</span></p></div>
+<div class="panel"><h3 id="level-name"></h3><div class="progress" id="level-bar-wrap" role="progressbar" aria-label="Level progress" aria-valuemin="0" aria-valuemax="100"><span id="level-bar"></span></div><p class="muted" id="next-level"></p></div>
+</div>
+<p class="note">Points are community engagement points, not money. Daily check-ins, polls, activities, the memory wall and the story game arrive in the next build parts.</p>
+</div></div></main>
+<footer class="site-footer"><div class="wrap">
+<p>Points are community engagement points. They have no cash value and cannot be exchanged for money.</p>
+<p>A community by <a href="#">Zekpo Destiny Films</a>.</p></div></footer>
+<script src="js/config.js"></script>
+<script src="js/api.js"></script>
+<script src="js/app.js"></script>
+<script src="js/community.js"></script>
+</body></html>

@@ -1,0 +1,4 @@
+.greeting{padding:2rem 0 1rem}
+.level-name{font:700 1.2rem var(--serif)}
+.profile-head{display:flex;gap:1rem;align-items:center;flex-wrap:wrap}
+.avatar{width:64px;height:64px;border-radius:50%;background:var(--purple-deep);display:grid;place-items:center;font:700 1.6rem var(--serif);color:#fff}
